@@ -1,0 +1,81 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Arial';
+}
+
+.grid-system {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: center;
+  height: 100vh;
+  font-size: 1.5rem;
+  overflow: hidden;
+}
+
+.grid-system > div {
+  padding: 0 20px;
+}
+
+.grid-system > div.left {
+  flex-grow: 1;
+  flex-basis: 0;
+  align-self: center;
+}
+
+.grid-system > div.center {
+  flex-grow: 3;
+  flex-basis: 0;
+  overflow: scroll;
+}
+
+.grid-system > div.right {
+  flex-grow: 1;
+  flex-basis: 0;
+  justify-content: center;
+  align-self: center;
+}
+
+.grid-system ul {
+  list-style-type: none;
+}
+
+.grid-system .center-text {
+  text-align: center;
+}
+
+.grid-system .left-text {
+  text-align: left;
+}
+
+.grid-system ul.submenu {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.grid-system ul.submenu li {
+  display: inline-block;
+  text-align: center;
+  padding: 0 16px;
+}
+
+.grid-system .logo {
+  margin-left: 10%;
+  width: 80%;
+  height: 50vh;
+  background-image: url("../img/logo_white-01.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
+.grid-system p {
+  text-align: left;
+}

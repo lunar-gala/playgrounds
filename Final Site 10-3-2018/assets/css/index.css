@@ -241,9 +241,12 @@ text.fade {
 }
 
 .get-involved h3 {
-  font-size: 35px !important;
+  font-size: 1.5rem !important;
   margin: 0;
+  margin-left: 2em;
+  text-decoration: underline;
   margin-top: 30px;
+  margin-bottom: 0.2em;
 }
 
 .get-involved p {
